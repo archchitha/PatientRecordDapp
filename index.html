@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Patient Record System</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+
+<h1>Register Patient</h1>
+<img id="loader" style="width:40px;height:40px;" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tbody>
+
+        <tr>
+            <td>First name</td>
+            <td><input type="text" id="firstName" maxlength="30"/></td>
+        </tr>
+        <tr>
+            <td>Last name</td>
+            <td><input type="text" id="lastName" /></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="number" id="patientAge" /></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="text" id="phoneNo" maxlength="30" /></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+<button type="button" class="btn btn-primary" id="button" >Register</button>
+<br>
+<br>
+<a href="PatientDetails.html"><button type="button" class="btn btn-primary" >Get Details</button></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="App.js"></script>
+</body>
+
+</html>
